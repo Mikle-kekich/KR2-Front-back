@@ -107,18 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Кнопка "Скачать резюме"
-    const downloadBtn = document.querySelector('.btn-download');
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', function(e) {
-            // Проверяем, существует ли файл
-            const resumePath = this.getAttribute('href');
-            if (resumePath === 'assets/resume.pdf') {
-                e.preventDefault();
-                alert('Резюме пока не загружено!\\n\\nДобавьте файл resume.pdf в папку assets/');
-            }
-        });
-    }
+   
 
     // Эффект печатающегося текста для заголовка (опционально)
     function typeWriterEffect() {

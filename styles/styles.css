@@ -696,4 +696,8 @@ footer {
         width: 100%;
         max-width: 100%;
     }
+    .main,
+    .header{
+        padding:10px
+    }
 }
